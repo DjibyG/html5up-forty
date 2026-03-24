@@ -60,7 +60,7 @@ jobs:
   # ===============================
   deploy:
     needs: ci
-    runs-on: [djiby]
+    runs-on: ubuntu-latest
 
     steps:
       - name: Pull latest image
